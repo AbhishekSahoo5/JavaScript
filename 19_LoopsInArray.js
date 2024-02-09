@@ -10,7 +10,7 @@ console.log("-----------------------");
 //for each loop
 num.forEach((i)=>{
     console.log(i*i);
-})
+}) 
 
 console.log("-----------------------");
 
