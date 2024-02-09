@@ -50,3 +50,6 @@ console.log(deletedVal);
 
 let sliceAr=ar.slice(2,5);
 console.log(sliceAr);
+
+//slice doesnot manipulate the original array
+//splice does manipulate the original array
