@@ -51,4 +51,5 @@ else{
 //Q5
 
 age=2;
-console.log(age>18?"You can drive":"you cannot drive");
+let a=(age>18?"You can drive":"you cannot drive");
+console.log(a);
