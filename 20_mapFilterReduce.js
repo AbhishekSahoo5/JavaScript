@@ -37,7 +37,7 @@ console.log("---------------------------------");
 
 let arr3=[1,2,3,5,2,1];
 const red_func=(h1,h2)=>{
-    return h1+h2*2;
+    return h1+h2;
 }
 /*
 How is reduce working in the above function
