@@ -27,7 +27,7 @@ console.log(str.trim());
 
 let fr="Shivika";
 console.log(fr[0]);
-fr[0]=A;          //----------------->error
+// fr[0]=A;          //----------------->error
 console.log(fr);
 
 //Quick Quiz---> Use for loop to print a string
