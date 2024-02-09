@@ -37,8 +37,16 @@ console.log("---------------------------------");
 
 let arr3=[1,2,3,5,2,1];
 const red_func=(h1,h2)=>{
-    return h1+h2;
+    return h1+h2*2;
 }
+/*
+How is reduce working in the above function
+1+2=3
+3+3=6
+6+5=11
+11+2=13
+13+1=14(ans)
+*/
 let newArr3=arr3.reduce(red_func);
 console.log(newArr3);
 //recomend explanation code with harry 
