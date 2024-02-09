@@ -14,3 +14,5 @@ do{
     console.log(i);
 }
 while(i<10);
+
+//difference between while and do-while
