@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prcatise Set</title>
+    <style>
+        nav{
+            display:flex;
+            background-color: burlywood;
+        }
+        nav li{
+            margin-left:30px;
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <li id="home">Home</li>
+        <li>About</li>
+        <li>Contact</li>
+    </nav>
+
+    <!-- Q2 -->
+    <table>
+        <td>Hello</td>
+        <td>Hello1</td>
+        <td>Hello2</td>
+        <td>Hello3</td>
+        <td>Hello4</td>
+        <td>Hello5</td>
+
+
+    </table>
+
+    <script>
+        //Q1
+        let firstele=document.querySelector("#home");
+        firstele.style.color="red";
+
+        //Q3
+        document.getElementsByTagName("nav")[0].firstElementChild.style.color="green";
+        document.getElementsByTagName("nav")[0].lastElementChild.style.color="green";
+
+        Array.from(document.getElementsByTagName("li")).forEach((i)=>{
+            i.style.background-color="cyan";
+        })
+    </script>
+</body>
+</html>
